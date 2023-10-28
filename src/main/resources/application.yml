@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: Tutorial-Api-Config-Server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lokeshrajgadkar/tutorial-api-config
+          clone-on-start: true
